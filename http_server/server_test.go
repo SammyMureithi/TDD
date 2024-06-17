@@ -7,7 +7,7 @@ import (
 	"testing"
 ) //server_test.go
 func TestGETPlayers(t *testing.T) {
-	t.Run("returns Pepper's score", func(t *testing.T) {
+	t.Run("returns Pepper's scoore", func(t *testing.T) {
 		request := newGetScoreRequest("Pepper")
 		response := httptest.NewRecorder()
 
